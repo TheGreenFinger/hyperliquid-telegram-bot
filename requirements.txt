@@ -1,0 +1,3 @@
+python-telegram-bot==20.3  # Version stable de l'API Telegram
+hyperliquid-sdk>=0.0.4     # Assure une version minimale connue, évite les versions cassées
+python-dotenv>=1.0.0       # Pour charger le fichier .env
