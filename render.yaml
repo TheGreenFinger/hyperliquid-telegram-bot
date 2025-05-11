@@ -1,0 +1,17 @@
+services:
+  - type: worker
+    name: hyperliquid-telegram-bot
+    env: python
+    repo: https://github.com/TheGreenFinger/hyperliquid-telegram-bot
+    branch: main
+    startCommand: python hyperliquid-telegram-bot.py  # Remplace par ton vrai nom de fichier
+    autoDeploy: true
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: CHAT_ID
+        sync: false
+      - key: THREAD_ID
+        sync: false
+      - key: TRADER_ADDRESS
+        sync: false
