@@ -1,4 +1,3 @@
-python-telegram-bot==20.3  # Version stable de l'API Telegram
 python-telegram-bot==20.3
+python-dotenv>=1.0.0
 git+https://github.com/hyperliquid-dex/hyperliquid-sdk.git
-python-dotenv>=1.0.0       # Pour charger le fichier .env
