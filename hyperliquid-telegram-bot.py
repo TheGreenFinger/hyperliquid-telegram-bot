@@ -59,7 +59,7 @@ async def main():
     print("🔄 Surveillance du trader en cours...")
 
     while True:
-        await asyncio.sleep(240)
+        await asyncio.sleep(300)
         new_state = info.user_state(TRADER_ADDRESS)
         new_open_positions = get_open_positions(new_state)
 
